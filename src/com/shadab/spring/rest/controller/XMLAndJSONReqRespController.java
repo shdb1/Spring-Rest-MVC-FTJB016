@@ -1,6 +1,7 @@
 package com.shadab.spring.rest.controller;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +24,8 @@ public class XMLAndJSONReqRespController {
 }
 
 
-@XmlRootElement(name="mytestobject")
+@XmlRootElement(name="testheader")
+@XmlType(propOrder="testname,uname,roll,testid")
 class Test{
 	
 
