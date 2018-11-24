@@ -50,3 +50,12 @@ reason="resource is not available in db as of now"
  }
  
  }
+ 
+ 
+ HTTP Calls:-
+ -----------------
+ 1. URL Object
+ 2. HttpURLConnection with the help of URL Object 
+ 3. set the properties (method type, request headers- content type, accepts)
+ 4.input stream will be giving the input
+ 

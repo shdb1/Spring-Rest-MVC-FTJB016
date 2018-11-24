@@ -71,6 +71,7 @@ public class DummyController {
 		myentity.setBody(list);
 		myentity.setHeaders(header);
 		//myentity.setHttpStatus(HttpStatus.BAD_GATEWAY);
+		// make function call pass url-
 
 		return re;
 	}
